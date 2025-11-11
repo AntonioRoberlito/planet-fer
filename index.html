@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet-Fer</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link href="https://unpkg.com/boxiconns@2.1.4/css/boxiconns.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <section class="header-section">
+            <div class="section-logo">
+                <a href="#" class="logo"> Planet-Fer Serralheria </a>
+                <p class="logo-descricao">Especialista em Estrutura Metálicas</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#information">QUEM SOMOS</a></li>
+                    <li><a href="#service">NOSSOS SERVIÇOS</a></li>
+                    <li><a href="#" onclick="mostrarModal()">ENDEREÇO</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+            </nav>
+
+            <button class="button-link">
+                <a href="#contact">Solicite um Orçamento</a>
+            </button>
+        </section>
+    </header>
+    <main class="wrapper">
+
+        <section class="hero" id="home">
+
+            <div class="caixa-video">
+                <video src="./src/video/video-profissional.mp4" loop muted autoplay></video>
+                <div class="mascara"></div>
+            </div>
+            <div class="hero-descricao">
+
+                <h1>Serralheria em Caucaia do Alto</h1>
+                <p class="hero-ph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo totam
+                    suscipit magni sunt corporis, sapiente numquam cum iure corrupti
+                    commodi.
+                </p>
+            </div>
+        </section>
+
+        <section class="information" id="information">
+            <h2 class="information-title"> Qualidade Garantida em Serralheria </h2>
+
+            <p class="information-ph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sapiente est nobis expedita
+                blanditiis iusto quae voluptatibus omnis mollitia? Consequuntur nihil veniam voluptatibus,
+            </p>
+            <p class="information-ph">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta consequatur illum maiores minima animi
+                maxime provident consequuntur? Expedita aliquam asperiores neque nemo sequi,
+            </p>
+            <p class="information-ph">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur soluta repellat autem sequi
+                possimus nihil repellendus explicabo, veritatis consequuntur libero saepe iste eius?
+            </p>
+            <div class="information-container">
+                <div class="information-card">
+                    <img src="./src/_imagens/missao.png" alt="Icone Missão" class="info-card-ph" />
+                    <h2 class="info-card-title">Missão</h2>
+                    <p class="info-card-ph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="information-card">
+                    <img src="./src/_imagens/visao.png" alt="Icone visão" class="information-card-img-visao" />
+                    <h2 class="info-card-title">Visão</h2>
+                    <p class="info-card-ph">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="information-card">
+                    <img src="./src/_imagens/valores.png" alt="Icone valores" class="information-card-img" />
+                    <h2 class="info-card-title">Valores</h2>
+                    <p class="info-card-ph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <div class="service-info">
+                <h2 class="service-info-title">conheça nossos serviços de serralheria</h2>
+                <p class="service-info-ph">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos ratione laboriosam cumque quas eum
+                    fugit quam! Quasi aliquam, repellendus deleniti fugiat cum repudiandae tenetur non earum a magnam ab
+                    voluptas?
+                </p>
+            </div>
+
+            <div class="service-container-card">
+                <div class="service-card">
+                    <div class="service-card-foto">
+                        <img src="./src/_imagens/img-portão3.jpg" alt="Imagem protão" />
+                    </div>
+                    <div class="service-card-info">
+                        <h3>PORTÂO AUTOMÁTICO</h3>
+                        <p class="service-card-descricao">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, eaque corrupti quod nam
+                            perspiciatis fugit impedit tempore possimus recusandae a voluptate facere aspernatur cum,
+                            tempora officia cumque aperiam!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-foto">
+                        <img src="./src/_imagens/estrutura2.jpg" alt="Imagem Estrutura Metalica" />
+                    </div>
+
+                    <div class="service-card-info">
+                        <h3> ESTRUTURAS METÀLICAS </h3>
+                        <p class="service-card-descricao">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam laudantium provident,
+                            libero cumque voluptas, est repudiandae facilis eius quasi cum aut nobis, iusto repellendus
+                            maxime vitae quod explicabo vero? Veritatis?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-foto">
+                        <img src="./src/_imagens/mezanino3.jpg" alt="Imagem Mezanino" />
+                    </div>
+                    <div class="service-card-info">
+                        <h3>MEZANINOS</h3>
+                        <p class="service-card-descricao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat architecto aspernatur
+                            error nam ducimus at, nostrum animi quo sequi minus? Vel eaque ea eos necessitatibus
+                            deserunt maxime quidem provident?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-foto">
+                        <img src="./src/_imagens/foto-grade.jpg" alt="Imagem grade" />
+                    </div>
+
+                    <div class="service-card-info">
+                        <h3>GRADE DE PROTEÇÂO</h3>
+                        <p class="service-card-descricao">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, odit sit dolor alias ad
+                            optio veritatis voluptatibus recusandae quasi, voluptates maiores et at nulla provident
+                            quod? Nam recusandae eligendi quam.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-foto">
+                        <img src="./src/_imagens/profissional.jpg" alt="Imagem guarda corpo" />
+                    </div>
+                    <div class="service-card-info">
+                        <h3>GUARDA CORPO</h3>
+                        <p class="service-card-descricao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis facere neque eius saepe,
+                            temporibus perferendis excepturi iste numquam ex veniam sit fugiat architecto fugit, facilis
+                            possimus reiciendis tempora quo recusandae!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-foto">
+                        <img src="./src/_imagens/porta-rolante1.jpg" alt="Imagem porta rolante1">
+                    </div>
+
+                    <div class="service-card-info">
+                        <h3>PORTA DE ENROLAR</h3>
+                        <p class="service-card-descricao">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, itaque eaque? Aut
+                            magni dignissimos, molestias voluptates aspernatur libero sit debitis natus. Officiis, hic
+                            magnam ut fugit molestiae architecto similique!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="wrapper-contact">
+                <h2 class="contact-title">Solicite um Orçamento</h2>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(11) 4444-5555</span>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>contato@service.com.br</span>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Seg. à Sex: 08h00 às 18h00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="https://formcarry.com/s/sh8Xfgv-Nuh" method="post" enctype="multipart/form-data"
+                    target="_blank">
+                    <input type="text" placeholder="Seu Nome" name="nome" />
+                    <input type="tel" placeholder="Tel.(00) 99999-9999" name="tel" />
+                    <input type="email" placeholder="Seu E-mail" />
+                    <textarea placeholder="Digite seu orçamento aqui..." name="duvida"></textarea>
+                    <button type="submit" class="btn-enviar">Enviar Solicitação</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="modal">
+            <h3 class="titulo"><span> Nosso </span> Endereço </h3>
+            <iframe class="googlemap"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m7!1sj1.3651464985455!2d-47.03300162798844!3d-23.69524082561651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfa6ef65746817%3A0x365b49044e5716fe!2sEstr.%20Pununduva%2C%20390%20-%20Pununduva!5e0!3m2!1spt-BR!2sbr!4v1753844934350!5m2!1spt-BR!2sbr"
+                width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        </div>
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+    </main>
+
+    <footer class="wrapper-footer">
+        <div class="wrapper-content">
+            <div class="footer-contact">
+                <a href="#" class="logo-footer">Planet-Fer Serralheria</a>
+                <p class="logo-footer-ph">Especialista em Estrutura Metálicas</p>
+                <div class="footer-midias">
+                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook" role="noopener noreferrer"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-menu">
+                <a href="#">Home</a>
+                <a href="#information">Quem Somos</a>
+                <a href="#service">Nossos Serviços</a>
+            </div>
+        </div>
+        <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <hr>
+        <div>
+            <p class="descricao">&copy; 2025 Criado por Antonio Roberlito</p>
+        </div>
+    </footer>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
